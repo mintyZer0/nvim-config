@@ -1,6 +1,2 @@
 require("config.lazy")
 require("vim-options")
-require('mini.files').setup()
-vim.keymap.set('n', '<leader>fe', function()
-    MiniFiles.open()
-end, {noremap = true, silent = false})
